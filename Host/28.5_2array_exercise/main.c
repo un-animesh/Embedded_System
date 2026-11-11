@@ -70,12 +70,12 @@ void display_array(uint32_t const *const array, uint32_t aSize)
 
 void swap_arrays(uint32_t *array1,uint32_t *array2,uint32_t aSize1, uint32_t aSize2)
 {
-	int32_t len ;//= aSize1 < aSize2 ? aSize1 : aSize2;
-	if(aSize1 < aSize2){
-		len = aSize1;
-	}else{
-		len = aSize2;
-	}
+	int32_t len = aSize1 < aSize2 ? aSize1 : aSize2;
+//	if(aSize1 < aSize2){
+//		len = aSize1;
+//	}else{
+//		len = aSize2;
+//	}
 	for(uint32_t i = 0 ; i < len ; i ++){
 		int32_t temp = array1[i];
 		array1[i] = array2[i];
