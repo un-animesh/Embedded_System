@@ -1,8 +1,0 @@
-20:35:36 **** Clean-only build of configuration Debug for project var-address ****
-make clean 
-rm -rf ./main.d ./main.o
-rm -rf var-address
- 
-
-20:35:36 Build Finished. 0 errors, 0 warnings. (took 162ms)
-
