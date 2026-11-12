@@ -17,6 +17,7 @@ Release/
 # IDE workspace settings
 .metadata/
 .settings/
+Host/.metadata
 
 # OS-generated files
 .DS_Store
